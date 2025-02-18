@@ -1,6 +1,5 @@
 from openai import OpenAI 
 from queue import Queue
-from config import openai_apikey as apikey
 import speech_recognition as speech 
 import win32com.client
 import webbrowser
@@ -13,7 +12,7 @@ speaker = win32com.client.Dispatch("SAPI.SpVoice")
 speaker.Voice = speaker.Getvoices().Item(1)
 engine = pyttsx3.init()
 openai = OpenAI(
-    api_key = apikey,
+    api_key = "your_api_key",
     base_url = "https://api.deepinfra.com/v1/openai",
 )
 stream = True 
