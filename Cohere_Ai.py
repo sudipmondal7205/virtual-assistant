@@ -1,8 +1,7 @@
 import cohere 
-from config import cohere_apikey
 
 co = cohere.Client(
-  api_key = cohere_apikey, 
+  api_key = "your_api_key", 
 ) 
 
 response = co.generate(
