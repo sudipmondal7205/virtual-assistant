@@ -2,10 +2,9 @@ import speech_recognition as speech
 import win32com.client
 import webbrowser
 import cohere 
-from config import cohere_apikey as apikey
 
 co = cohere.Client(
-  api_key = apikey, 
+  api_key = "your_api_key", 
 ) 
 
 def ai(prompt) :
