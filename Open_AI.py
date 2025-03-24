@@ -1,6 +1,3 @@
-
-
-
 from openai import OpenAI
 
 openai = OpenAI(
@@ -12,7 +9,7 @@ stream = True # or False
 
 chat_completion = openai.chat.completions.create(
     model="meta-llama/Meta-Llama-3-8B-Instruct",
-    messages=[{"role": "user", "content": "tell me about the weather of  india"}],
+    messages=[{"role": "user", "content": "tell me about the history of  india"}],
     stream=stream,
 )
 
