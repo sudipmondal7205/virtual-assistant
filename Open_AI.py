@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 openai = OpenAI(
-    api_key="22zON2Cz9zlWGgan9XyPcoUm11JqDiGC",
+    api_key="key",
     base_url="https://api.deepinfra.com/v1/openai",
 )
 
