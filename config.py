@@ -1,2 +1,2 @@
-cohere_apikey = "tPaGkhz7h1DZeMCtg4cf9rjAuVfj75Zf6l1K12TV"
-openai_apikey = "22zON2Cz9zlWGgan9XyPcoUm11JqDiGC"
+cohere_apikey = "api"
+openai_apikey = "api"
